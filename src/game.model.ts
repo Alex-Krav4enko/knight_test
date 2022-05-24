@@ -92,7 +92,6 @@ export class Game {
             strikerNumber = (defender.isDead && heroes.length > 1)
                 ? randomStep(0, (heroes.length - 1), strikerNumber)
                 : defenderNumber;
-            strikerNumber = defenderNumber;
         }
 
         return heroes[0];
